@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14-Sep-2014, 10:16:32 PM
+    Author     : wdu
+*/
+            .axis path,
+            .axis line {
+                fill: none;
+                stroke: #000;
+                shape-rendering: crispEdges;
+            }
+            .line {
+                fill: none;
+                stroke: steelblue;
+                stroke-width: 1.5px;
+            }
+            svg, path {
+                pointer-events: all;
+            }
+            .panel {
+                position: absolute;
+                border: 2px solid grey;
+            }
+            .tag {
+                font-size: 18;
+                cursor: pointer;
+                text-anchor: middle;
+                dominant-baseline: hanging;
+                fill: green;
+                font-family: Helvetica, Impact;
+            }
+            .closeX {
+                font-size:18;
+                fill:red;
+                cursor:pointer;
+            }
+            g > text {
+                font-size: 70%;
+            }
+            .section {
+                stroke: #FFD700;
+                stroke-width: 1.5px;
+            }
+            button {
+                width: 4em;
+                height: 1.5em;
+            }
+            #center {
+                margin: 0 auto;
+                position: absolute;
+                top: 100px;
+                left: 375px;
+                bottom: 140px;
+                right: 375px;
+                overflow-x: scroll;
+                border: #8A2BE2 outset;
+                border-width: 5px;
+            }
